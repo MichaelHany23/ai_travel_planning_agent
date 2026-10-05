@@ -1,0 +1,11 @@
+# Keep the async server stack pinned so Streamlit + ADK play nicely together.
+# See "Dependency Compatibility Note" in the README for the full story.
+google-adk>=1.0.0
+google-genai>=1.0.0
+streamlit>=1.32.0
+starlette==1.7.0
+anyio==4.9.0
+python-dotenv>=1.0.0
+tavily-python>=0.3.0
+geopy>=2.4.0
+nest-asyncio>=1.6.0
